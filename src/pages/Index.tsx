@@ -23,7 +23,7 @@ const services = [
     description: 'Энергетическая работа с намерением и силой огня',
     price: '1500 ₽',
     icon: 'Flame',
-    features: ['Привлечение любви', 'Защита', 'Благополучие', 'Исцеление']
+    features: ['Отношения', 'Финансы', 'Здоровье', 'Чистка']
   },
   {
     title: 'Магические Ритуалы',
@@ -152,13 +152,13 @@ export default function Index() {
             <h3 className="text-5xl font-bold text-center mb-12 glow">О магической практике</h3>
             <div className="prose prose-invert max-w-none">
               <p className="text-lg leading-relaxed mb-6">
-                Более 15 лет я изучаю древние эзотерические традиции и помогаю людям найти ответы на важнейшие вопросы жизни. 
+                Более 4 лет я изучаю древние эзотерические традиции и помогаю людям найти ответы на важнейшие вопросы жизни. 
                 Моя практика основана на глубоком понимании символизма Таро, энергетических законов Вселенной и силе ритуальной магии.
               </p>
               <div className="grid md:grid-cols-3 gap-6 my-12">
                 <div className="text-center">
                   <Icon name="BookOpen" size={48} className="mx-auto mb-4 text-primary" />
-                  <h4 className="text-xl font-semibold mb-2">15+ лет</h4>
+                  <h4 className="text-xl font-semibold mb-2">4+ года</h4>
                   <p className="text-muted-foreground">практики и обучения</p>
                 </div>
                 <div className="text-center">
@@ -314,24 +314,24 @@ export default function Index() {
             <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
               <div>
                 <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
-                  <Icon name="Mail" size={20} className="text-primary" />
-                  Email
-                </h4>
-                <p className="text-muted-foreground">mystic@tarot.ru</p>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
-                  <Icon name="Phone" size={20} className="text-primary" />
-                  Телефон
-                </h4>
-                <p className="text-muted-foreground">+7 (999) 123-45-67</p>
-              </div>
-              <div>
-                <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
                   <Icon name="MessageCircle" size={20} className="text-primary" />
+                  WhatsApp
+                </h4>
+                <a href="https://wa.me/79657300645" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">+7 965 730-06-45</a>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
+                  <Icon name="Send" size={20} className="text-primary" />
                   Telegram
                 </h4>
-                <p className="text-muted-foreground">@mystic_arts</p>
+                <a href="https://t.me/TarroRss" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">@TarroRss</a>
+              </div>
+              <div>
+                <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
+                  <Icon name="Users" size={20} className="text-primary" />
+                  ВКонтакте
+                </h4>
+                <a href="https://vk.com/llfor_youll" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">vk.com/llfor_youll</a>
               </div>
             </div>
             <div className="mt-8 pt-8 border-t border-border/30 text-center text-muted-foreground">
