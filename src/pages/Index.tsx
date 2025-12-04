@@ -82,11 +82,19 @@ export default function Index() {
               <Icon name="Sparkles" size={32} className="text-accent" />
               <span>Mystic Arts</span>
             </h1>
-            <div className="hidden md:flex gap-6">
-              <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
-              <a href="#about" className="hover:text-primary transition-colors">О практике</a>
-              <a href="#portfolio" className="hover:text-primary transition-colors">Отзывы</a>
-              <a href="#booking" className="hover:text-primary transition-colors">Записаться</a>
+            <div className="flex items-center gap-4">
+              <div className="hidden md:flex gap-6 mr-4">
+                <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
+                <a href="#about" className="hover:text-primary transition-colors">О практике</a>
+                <a href="#portfolio" className="hover:text-primary transition-colors">Отзывы</a>
+                <a href="#booking" className="hover:text-primary transition-colors">Записаться</a>
+              </div>
+              <Button asChild className="glow-strong">
+                <a href="https://wa.me/79657300645" target="_blank" rel="noopener noreferrer">
+                  <Icon name="MessageCircle" size={20} className="mr-2" />
+                  WhatsApp
+                </a>
+              </Button>
             </div>
           </div>
         </div>
