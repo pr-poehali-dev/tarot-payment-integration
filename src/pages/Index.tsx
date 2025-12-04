@@ -47,7 +47,7 @@ const testimonials = [
   },
   {
     name: 'Анна П.',
-    text: 'Программная свеча на защиту действительно работает. Чувствую себя спокойнее и увереннее.',
+    text: 'Программная свеча на здоровье помогла восстановить силы. Чувствую прилив энергии!',
     service: 'Программная свеча'
   }
 ];
@@ -90,7 +90,7 @@ export default function Index() {
                 <a href="#booking" className="hover:text-primary transition-colors">Записаться</a>
               </div>
               <Button asChild className="glow-strong">
-                <a href="https://wa.me/79657300645" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/79110573476" target="_blank" rel="noopener noreferrer">
                   <Icon name="MessageCircle" size={20} className="mr-2" />
                   WhatsApp
                 </a>
@@ -325,7 +325,7 @@ export default function Index() {
                   <Icon name="MessageCircle" size={20} className="text-primary" />
                   WhatsApp
                 </h4>
-                <a href="https://wa.me/79657300645" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">+7 965 730-06-45</a>
+                <a href="https://wa.me/79110573476" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">+7 911 057-34-76</a>
               </div>
               <div>
                 <h4 className="font-semibold mb-4 flex items-center justify-center md:justify-start gap-2">
